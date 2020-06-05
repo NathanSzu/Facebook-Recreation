@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+/* Header Styles */
+#header {
+    background-color: #4D68A2;
+    height: 82px;
+}
+.container {
+    width: 980px;
+    margin: 0 auto;
+}
+#logo {
+    font-size: 31px;
+    color: #eeeeee;
+    position: relative;
+    top: 30px;
+    font-weight: bold;
+}
+#login-container {
+    float: right;
+    position: relative;
+    bottom: 11px;
+    /* padding-top: -16px; */
+}
+.login-sub-container {
+    float: right;
+    margin-right: 14px
+}
+.label {
+    display: block;
+    color: #eeeeee;
+    /* /bottom: 8px; */
+}
+.login-input {
+    width: 148px;
+    height: 22px;
+}
+#login-button {
+    width: 50px;
+    height: 24px;
+    background-color: #4267B2;
+    color: #eeeeee;
+    float: right;
+    position: relative;
+    top: 14px;
+}
+
+
+#main-container {
+    height: 622px;
+    background-color: #E9EBEE;
+}
+
+#about-section {
+    position: relative;
+    width: 40%;
+    top: 68px;
+    float: left;
+}
+
+#about-title {
+    font-size: 19px;
+    font-weight: bold;
+    width: 70%;
+    margin-bottom: 72px;
+}
+
+#signup-section {
+    width: 40%;
+    position: relative;
+    top: 28px;
+    float: right;
+}
+.about-text {
+    margin-bottom: 72px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+#signup-title {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#signup-title-sub-text {
+    position: relative;
+    margin-top: 17px;
+}
+
+#signup-input-container {
+    margin-top: 25px;
+}
+
+.inputs {
+    height: 37px;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.name-input-left {
+    width: 48.5%;
+    float: left;
+}
+
+.name-input-right {
+    width: 48.5%;
+    float: right;
+}
